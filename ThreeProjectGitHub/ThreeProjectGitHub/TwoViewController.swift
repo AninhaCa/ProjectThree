@@ -15,6 +15,7 @@ class TwoViewController: UIViewController {
     @IBOutlet var labelTwo: UILabel!
     
     var serieTwo: BrazilianSeries = BrazilianSeries(name: "", descriptionSerie: "", chronology: "", characters: "", seasons: "", image: "")
+        
     
     override func viewDidLoad() {
         super.viewDidLoad()
