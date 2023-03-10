@@ -26,5 +26,4 @@ class MyCustomXIB: UITableViewCell {
     func setup(SerieXIB: BrazilianSeries) {
         
     }
-    
 }

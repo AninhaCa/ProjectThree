@@ -42,6 +42,4 @@ extension ViewController: UITableViewDataSource {
         
         return UITableViewCell()
     }
-    
-    
 }
