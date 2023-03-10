@@ -20,6 +20,7 @@
 		770BEBCE29BAC76800D4F1C8 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770BEBCD29BAC76800D4F1C8 /* ModalViewController.swift */; };
 		770BEBD029BAC89500D4F1C8 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770BEBCF29BAC89500D4F1C8 /* TwoViewController.swift */; };
 		770BEBD229BACA8200D4F1C8 /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770BEBD129BACA8200D4F1C8 /* ThreeViewController.swift */; };
+		770BEBD429BACBAD00D4F1C8 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770BEBD329BACBAD00D4F1C8 /* FourViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		770BEBCD29BAC76800D4F1C8 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		770BEBCF29BAC89500D4F1C8 /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
 		770BEBD129BACA8200D4F1C8 /* ThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
+		770BEBD329BACBAD00D4F1C8 /* FourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				770BEBB529BAC15200D4F1C8 /* ViewController.swift */,
 				770BEBCF29BAC89500D4F1C8 /* TwoViewController.swift */,
 				770BEBD129BACA8200D4F1C8 /* ThreeViewController.swift */,
+				770BEBD329BACBAD00D4F1C8 /* FourViewController.swift */,
 				770BEBC929BAC24B00D4F1C8 /* MyCustomCell.swift */,
 				770BEBC529BAC19300D4F1C8 /* MyCustomXIB.swift */,
 				770BEBC629BAC19300D4F1C8 /* MyCustomXIB.xib */,
@@ -161,6 +164,7 @@
 			files = (
 				770BEBC729BAC19300D4F1C8 /* MyCustomXIB.swift in Sources */,
 				770BEBCA29BAC24B00D4F1C8 /* MyCustomCell.swift in Sources */,
+				770BEBD429BACBAD00D4F1C8 /* FourViewController.swift in Sources */,
 				770BEBB629BAC15200D4F1C8 /* ViewController.swift in Sources */,
 				770BEBD029BAC89500D4F1C8 /* TwoViewController.swift in Sources */,
 				770BEBB229BAC15200D4F1C8 /* AppDelegate.swift in Sources */,
