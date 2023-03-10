@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var myTableView: UITableView!
+    
     var arreySerie: [BrazilianSeries] = [
     BrazilianSeries(name: "A Grande Família", descriptionSerie: "Tipicamente brasileira, a família Silva mora em um subúrbio na Zona Norte do Rio de Janeiro, convive com suas diferenças e ajuda uns aos outros a contornar as situações mais inusitadas.", chronology: "Episódio final: 11 de setembro de 2014, Primeiro episódio: 29 de março de 2001 (Brasil)", characters: "Criadores: Vianinha, Armando Costa, Cláudio Paiva, Oduvaldo Vianna Filho, Gêneros: Comédia, Sitcom, Humor, Infantil", seasons: "Com 13 temporadas, a comédia sobre a família Silva é a mais longa série de televisão brasileira.", image: "grandefamilia"),
     BrazilianSeries(name: "Os Normais", descriptionSerie: "Rui e Vani são noivos há sete anos, mas ainda não se casaram oficialmente. Eles têm basicamente os mesmos gostos e neuroses, mas brigam sempre. Apesar dos conflitos, cenas de ciúmes, brincadeiras e muita confusão, eles se consideram um casal normal.", chronology: "Primeiro episódio: 1 de junho de 2001 (Brasil), Episódio final: 3 de outubro de 2003", characters: "Diretor: José Alvarenga Júnior, Emissora original: TV Globo", seasons: "Criada por Alexandre Machado e Fernanda Young, a série foi ao ar de 2001 a 2003, e trazia os problemas cotidianos dos noivos.", image: "NORMAIS"),

@@ -23,5 +23,4 @@ class BrazilianSeries: NSObject {
         self.seasons = seasons
         self.image = image
     }
-
 }

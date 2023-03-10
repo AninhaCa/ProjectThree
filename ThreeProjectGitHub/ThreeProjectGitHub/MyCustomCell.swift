@@ -27,5 +27,4 @@ class MyCustomCell: UITableViewCell {
         labelCell.text = serieCell.name
         imageCell.image = UIImage(named: serieCell.image)
     }
-
 }
