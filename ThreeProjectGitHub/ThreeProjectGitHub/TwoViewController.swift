@@ -26,5 +26,10 @@ class TwoViewController: UIViewController {
     }
     
     @IBAction func follow(_ sender: Any) {
+        if let three = self.storyboard?.instantiateViewController(identifier: "three") as? ThreeViewController {
+            three.serieThree = self.serieTwo
+            button.backgroundColor = .yellow
+            self.navigationController?.pushViewController(three, animated: true)
+        }
     }
 }
