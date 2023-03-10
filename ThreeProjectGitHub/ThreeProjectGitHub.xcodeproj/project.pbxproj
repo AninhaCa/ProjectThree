@@ -18,6 +18,7 @@
 		770BEBCA29BAC24B00D4F1C8 /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770BEBC929BAC24B00D4F1C8 /* MyCustomCell.swift */; };
 		770BEBCC29BAC2E400D4F1C8 /* BrazilianSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770BEBCB29BAC2E400D4F1C8 /* BrazilianSeries.swift */; };
 		770BEBCE29BAC76800D4F1C8 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770BEBCD29BAC76800D4F1C8 /* ModalViewController.swift */; };
+		770BEBD029BAC89500D4F1C8 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770BEBCF29BAC89500D4F1C8 /* TwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		770BEBC929BAC24B00D4F1C8 /* MyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
 		770BEBCB29BAC2E400D4F1C8 /* BrazilianSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrazilianSeries.swift; sourceTree = "<group>"; };
 		770BEBCD29BAC76800D4F1C8 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		770BEBCF29BAC89500D4F1C8 /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				770BEBCB29BAC2E400D4F1C8 /* BrazilianSeries.swift */,
 				770BEBCD29BAC76800D4F1C8 /* ModalViewController.swift */,
 				770BEBB529BAC15200D4F1C8 /* ViewController.swift */,
+				770BEBCF29BAC89500D4F1C8 /* TwoViewController.swift */,
 				770BEBC929BAC24B00D4F1C8 /* MyCustomCell.swift */,
 				770BEBC529BAC19300D4F1C8 /* MyCustomXIB.swift */,
 				770BEBC629BAC19300D4F1C8 /* MyCustomXIB.xib */,
@@ -156,6 +159,7 @@
 				770BEBC729BAC19300D4F1C8 /* MyCustomXIB.swift in Sources */,
 				770BEBCA29BAC24B00D4F1C8 /* MyCustomCell.swift in Sources */,
 				770BEBB629BAC15200D4F1C8 /* ViewController.swift in Sources */,
+				770BEBD029BAC89500D4F1C8 /* TwoViewController.swift in Sources */,
 				770BEBB229BAC15200D4F1C8 /* AppDelegate.swift in Sources */,
 				770BEBB429BAC15200D4F1C8 /* SceneDelegate.swift in Sources */,
 				770BEBCC29BAC2E400D4F1C8 /* BrazilianSeries.swift in Sources */,
