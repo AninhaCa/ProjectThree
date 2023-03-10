@@ -18,7 +18,9 @@ class ThreeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        labelOne.text = serieThree.name
+        labelTwo.text = serieThree.chronology
+        imageThree.image = UIImage(named: serieThree.image)
     }
     
     @IBAction func back(_ sender: Any) {

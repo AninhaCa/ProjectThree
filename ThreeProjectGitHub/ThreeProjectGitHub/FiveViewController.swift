@@ -19,7 +19,9 @@ class FiveViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        labelOne.text = serieFive.name
+        labelTwo.text = serieFive.seasons
+        imageFive.image = UIImage(named: serieFive.image)
     }
     
     @IBAction func back(_ sender: Any) {

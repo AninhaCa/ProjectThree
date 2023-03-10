@@ -23,7 +23,8 @@ class MyCustomXIB: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func setup(SerieXIB: BrazilianSeries) {
-        
+    func setup(serieXIB: BrazilianSeries) {
+        labelCell.text = serieXIB.name
+        imageCell.image = UIImage(named: serieXIB.image)
     }
 }

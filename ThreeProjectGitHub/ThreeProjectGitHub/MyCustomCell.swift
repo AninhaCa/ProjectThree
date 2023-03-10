@@ -24,7 +24,8 @@ class MyCustomCell: UITableViewCell {
     }
     
     func setup(serieCell: BrazilianSeries) {
-        
+        labelCell.text = serieCell.name
+        imageCell.image = UIImage(named: serieCell.image)
     }
 
 }

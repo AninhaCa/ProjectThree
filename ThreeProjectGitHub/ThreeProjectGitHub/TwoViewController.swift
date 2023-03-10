@@ -19,7 +19,9 @@ class TwoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        labelOne.text = serieTwo.name
+        labelTwo.text = serieTwo.descriptionSerie
+        imageTwo.image = UIImage(named: serieTwo.image)
     }
 
     @IBAction func back(_ sender: Any) {
