@@ -14,7 +14,7 @@ class ThreeViewController: UIViewController {
     @IBOutlet var labelTwo: UILabel!
     @IBOutlet var imageThree: UIImageView!
     
-    var serieThree BrazilianSeries = BrazilianSeries(name: "", descriptionSerie: "", chronology: "", characters: "", seasons: "", image: "")
+    var serieThree: BrazilianSeries = BrazilianSeries(name: "", descriptionSerie: "", chronology: "", characters: "", seasons: "", image: "")
     
     override func viewDidLoad() {
         super.viewDidLoad()

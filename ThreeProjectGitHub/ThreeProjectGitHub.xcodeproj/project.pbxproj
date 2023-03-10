@@ -21,6 +21,7 @@
 		770BEBD029BAC89500D4F1C8 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770BEBCF29BAC89500D4F1C8 /* TwoViewController.swift */; };
 		770BEBD229BACA8200D4F1C8 /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770BEBD129BACA8200D4F1C8 /* ThreeViewController.swift */; };
 		770BEBD429BACBAD00D4F1C8 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770BEBD329BACBAD00D4F1C8 /* FourViewController.swift */; };
+		770BEBD629BACD1200D4F1C8 /* FiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770BEBD529BACD1200D4F1C8 /* FiveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		770BEBCF29BAC89500D4F1C8 /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
 		770BEBD129BACA8200D4F1C8 /* ThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
 		770BEBD329BACBAD00D4F1C8 /* FourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		770BEBD529BACD1200D4F1C8 /* FiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				770BEBCF29BAC89500D4F1C8 /* TwoViewController.swift */,
 				770BEBD129BACA8200D4F1C8 /* ThreeViewController.swift */,
 				770BEBD329BACBAD00D4F1C8 /* FourViewController.swift */,
+				770BEBD529BACD1200D4F1C8 /* FiveViewController.swift */,
 				770BEBC929BAC24B00D4F1C8 /* MyCustomCell.swift */,
 				770BEBC529BAC19300D4F1C8 /* MyCustomXIB.swift */,
 				770BEBC629BAC19300D4F1C8 /* MyCustomXIB.xib */,
@@ -171,6 +174,7 @@
 				770BEBB429BAC15200D4F1C8 /* SceneDelegate.swift in Sources */,
 				770BEBD229BACA8200D4F1C8 /* ThreeViewController.swift in Sources */,
 				770BEBCC29BAC2E400D4F1C8 /* BrazilianSeries.swift in Sources */,
+				770BEBD629BACD1200D4F1C8 /* FiveViewController.swift in Sources */,
 				770BEBCE29BAC76800D4F1C8 /* ModalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

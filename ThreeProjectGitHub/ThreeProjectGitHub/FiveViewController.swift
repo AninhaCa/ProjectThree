@@ -1,5 +1,5 @@
 //
-//  FourViewController.swift
+//  FiveViewController.swift
 //  ThreeProjectGitHub
 //
 //  Created by Ana Paula Silva de Sousa on 09/03/23.
@@ -7,14 +7,15 @@
 
 import UIKit
 
-class FourViewController: UIViewController {
+class FiveViewController: UIViewController {
 
+    
     @IBOutlet var button: UIButton!
     @IBOutlet var labelOne: UILabel!
     @IBOutlet var labelTwo: UILabel!
-    @IBOutlet var imageFour: UIImageView!
+    @IBOutlet var imageFive: UIImageView!
     
-    var serieFour: BrazilianSeries = BrazilianSeries(name: "", descriptionSerie: "", chronology: "", characters: "", seasons: "", image: "")
+    var serieFive: BrazilianSeries = BrazilianSeries(name: "", descriptionSerie: "", chronology: "", characters: "", seasons: "", image: "")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,10 +27,10 @@ class FourViewController: UIViewController {
     }
     
     @IBAction func follow(_ sender: Any) {
-        if let five = self.storyboard?.instantiateViewController(identifier: "five") as? FiveViewController {
-            five.serieFive = self.serieFour
+        if let modal = self.storyboard?.instantiateViewController(identifier: "modal") {
             button.backgroundColor = .yellow
-            self.navigationController?.pushViewController(five, animated: true)
+            self.present(modal, animated: true)
         }
     }
+    
 }
