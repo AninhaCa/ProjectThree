@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         myTableView.dataSource = self
+        myTableView.delegate = self
         let XIB = UINib(nibName: "MyCustomXIB", bundle: nil)
         myTableView.register(XIB, forCellReuseIdentifier: "cellXIB")
     }
@@ -41,5 +42,14 @@ extension ViewController: UITableViewDataSource {
         }
         
         return UITableViewCell()
+    }
+}
+
+extension ViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let two = self.storyboard?.instantiateViewController(identifier: "two") as? TwoViewController {
+            two.serieTwo = arreySerie[indexPath.row]
+            self.navigationController?.pushViewController(two, animated: true)
+        }
     }
 }
